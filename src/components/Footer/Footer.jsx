@@ -22,6 +22,8 @@ const Footer = () => {
                 </div>
             </div>
 
+            <div className="blur blur-footer"></div>
+
         </div>
     )
 };

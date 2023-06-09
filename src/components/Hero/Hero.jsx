@@ -9,6 +9,9 @@ import './Hero.css';
 const Hero = () => {
     return (
         <div className="hero">
+
+            <div className="blur hero-blur"></div>
+
             <div className="left-h">
                 <Header />
 
@@ -61,7 +64,13 @@ const Hero = () => {
 
             </div>
             <div className="right-h">
-                <button className="btn">Join Now</button>
+                
+                <div className="sesion-buttons">
+
+                    <button className="btn">Sign In</button>
+                    <button className="btn">Sign Up</button>
+
+                </div>
 
                 <div className="heart-rate">
                     <img src={Heart} alt="" />

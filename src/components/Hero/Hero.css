@@ -104,12 +104,17 @@
     border: 2px solid var(--orange);
 }
 
-.right-h > .btn {
+.right-h > .sesion-buttons {
+    width: auto;
+    display: flex;
     position: absolute;
-    right: 3rem;
     top: 2rem;
+    right: 2rem;
+    gap: 1rem;
     color: black;
+    flex-direction: row;
 }
+
 
 .heart-rate {
     display: flex;
@@ -184,4 +189,10 @@
 .calories> div > :nth-child(2) {
     color: white;
     font-size: 1.5rem;
+}
+
+.hero-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
 }

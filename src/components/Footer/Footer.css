@@ -31,3 +31,11 @@
     width: 10rem;
     
 }
+
+.blur-footer {
+    bottom: 0;
+    right: 30%;
+    width: 40%;
+    height: 12rem;
+    filter: blur(200px);
+}
